@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "God Of War"
+  },
+  {
+    "id": 2,
+    "nombre": "The Witcher"
+  },
+  {
+    "id": 3,
+    "nombre": "Doom"
+  },
+  {
+    "id": 4,
+    "nombre": "Mortal Kombat"
+  },
+  {
+    "id": 5,
+    "nombre": "Grand Theft Auto"
+  },
+  {
+    "id": 6,
+    "nombre": "Red Dead Redemption"
+  },
+  {
+    "id": 7,
+    "nombre": "Call Of Duty"
+  },
+  {
+    "id": 8,
+    "nombre": "Super Mario"
+  },
+  {
+    "id": 9,
+    "nombre": "Resident Evil"
+  },
+  {
+    "id": 10,
+    "nombre": "Minecraft"
+  }
+]

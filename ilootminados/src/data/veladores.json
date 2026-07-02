@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "nombre": "Velador Espada Kratos",
+    "descripcion": "Velador con forma de la espada de Kratos.",
+    "precio": 200000,
+    "categoriaId": 1,
+    "imagen": ""
+  },
+  {
+    "id": 2,
+    "nombre": "Velador Collar Lobo Geralt",
+    "descripcion": "Velador con forma del collar de lobo de Geralt de Rivia.",
+    "precio": 150000,
+    "categoriaId": 2,
+    "imagen": ""
+  },
+  {
+    "id": 3,
+    "nombre": "Velador Doom",
+    "descripcion": "Velador con forma de la espada de Kratos.",
+    "precio": 300,
+    "categoriaId": 3,
+    "imagen": ""
+  },
+  {
+    "id": 4,
+    "nombre": "Velador Mortal Kombat",
+    "precio": 400,
+    "categoriaId": 4,
+    "imagen": ""
+  },
+  {
+    "id": 5,
+    "nombre": "Velador Grand Theft Auto",
+    "precio": 500,
+    "categoriaId": 5,
+    "imagen": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Velador Red Dead Redemption",
+    "precio": 600,
+    "categoriaId": 6,
+    "imagen": ""
+  },
+  {
+    "id": 7,
+    "nombre": "Velador Ghost - Call of Duty",
+    "descripcion": "Velador con forma de la espada de Kratos.",
+    "precio": 300,
+    "categoriaId": 7,
+    "imagen": ""
+  },
+  {
+    "id": 8,
+    "nombre": "Velador Hongo Super Mario",
+    "precio": 400,
+    "categoriaId": 8,
+    "imagen": ""
+  },
+  {
+    "id": 9,
+    "nombre": "Velador Resident Evil",
+    "precio": 500,
+    "categoriaId": 9,
+    "imagen": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Velador Pico Diamante Minecraft",
+    "precio": 600,
+    "categoriaId": 10,
+    "imagen": ""
+  }
+]
