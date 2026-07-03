@@ -17,8 +17,8 @@
   },
   {
     "id": 3,
-    "nombre": "Velador Doom",
-    "descripcion": "Velador con forma de la espada de Kratos.",
+    "nombre": "Velador Doomguy 1993",
+    "descripcion": "Velador de la cabeza del mítico Doomguy.",
     "precio": 300,
     "categoriaId": 3,
     "imagen": ""
@@ -26,6 +26,7 @@
   {
     "id": 4,
     "nombre": "Velador Mortal Kombat",
+    "descripcion": "Velador con forma del logo de Mortal Kombat.",
     "precio": 400,
     "categoriaId": 4,
     "imagen": ""
@@ -33,13 +34,15 @@
   {
     "id": 5,
     "nombre": "Velador Grand Theft Auto",
+    "descripcion": "Velador con forma del logo de Grand Theft Auto.",
     "precio": 500,
     "categoriaId": 5,
     "imagen": ""
   },
   {
     "id": 6,
-    "nombre": "Velador Red Dead Redemption",
+    "nombre": "Velador Arthur Red Dead Redemption 2",
+    "descripcion": "Velador con Arthur Morgan y el logo de Red Dead Redemption 2.",
     "precio": 600,
     "categoriaId": 6,
     "imagen": ""
@@ -47,7 +50,7 @@
   {
     "id": 7,
     "nombre": "Velador Ghost - Call of Duty",
-    "descripcion": "Velador con forma de la espada de Kratos.",
+    "descripcion": "Velador de la cabeza del agente Ghost de Call of Duty.",
     "precio": 300,
     "categoriaId": 7,
     "imagen": ""
@@ -55,13 +58,15 @@
   {
     "id": 8,
     "nombre": "Velador Hongo Super Mario",
+    "descripcion": "Velador con forma de hongo de Super Mario.",
     "precio": 400,
     "categoriaId": 8,
     "imagen": ""
   },
   {
     "id": 9,
-    "nombre": "Velador Resident Evil",
+    "nombre": "Velador Virus-T Resident Evil",
+    "descripcion": "Velador con forma de un tubo de ensayo que contiene el virus-T de Resident Evil.",
     "precio": 500,
     "categoriaId": 9,
     "imagen": ""
@@ -69,8 +74,88 @@
   {
     "id": 10,
     "nombre": "Velador Pico Diamante Minecraft",
+    "descripcion": "Velador con forma de pico de diamante de Minecraft.",
     "precio": 600,
     "categoriaId": 10,
+    "imagen": ""
+  },
+  {
+    "id": 11,
+    "nombre": "Velador Hacha de Leviatán",
+    "descripcion": "Velador con forma del hacha de Leviatán de God of War.",
+    "precio": 600,
+    "categoriaId": 1,
+    "imagen": ""
+  },
+  {
+    "id": 12,
+    "nombre": "Velador Logo Neon GTA V",
+    "descripcion": "Velador con forma del logo de Grand Theft Auto V.",
+    "precio": 600,
+    "categoriaId": 5,
+    "imagen": ""
+  },
+  {
+    "id": 13,
+    "nombre": "Velador Cabeza Steve Minecraft",
+    "descripcion": "Velador con forma de la cabeza de Steve de Minecraft.",
+    "precio": 600,
+    "categoriaId": 10,
+    "imagen": ""
+  },
+  {
+    "id": 14,
+    "nombre": "Velador Bloque de Mineral de Redstone",
+    "descripcion": "Velador con forma de bloque de mineral de redstone de Minecraft.",
+    "precio": 600,
+    "categoriaId": 10,
+    "imagen": ""
+  },
+  {
+    "id": 15,
+    "nombre": "Bloque '?' Mario",
+    "descripcion": "Velador con forma de bloque '?' de Super Mario.",
+    "precio": 600,
+    "categoriaId": 8,
+    "imagen": ""
+  },
+  {
+    "id": 16,
+    "nombre": "Casco de Doom Slayer",
+    "descripcion": "Velador con forma del casco de Doom Slayer de Doom.",
+    "precio": 600,
+    "categoriaId": 3,
+    "imagen": ""
+  },
+  {
+    "id": 17,
+    "nombre": "Velador Horda WoW",
+    "descripcion": "Velador con forma del logo de la Horda de World of Warcraft.",
+    "precio": 600,
+    "categoriaId": 11,
+    "imagen": ""
+  },
+  {
+    "id": 18,
+    "nombre": "Velador Alianza WoW",
+    "descripcion": "Velador con forma del logo de la Alianza de World of Warcraft.",
+    "precio": 600,
+    "categoriaId": 11,
+    "imagen": ""
+  },
+  {
+    "id": 19,
+    "nombre": "Corporación Umbrella",
+    "descripcion": "Velador con forma del logo de la Corporación Umbrella de Resident Evil.",
+    "precio": 600,
+    "categoriaId": 9,
+    "imagen": ""
+  },
+  {
+    "id": 20,
+    "nombre": "Velador Fatality",
+    "precio": 600,
+    "categoriaId": 4,
     "imagen": ""
   }
 ]

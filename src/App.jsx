@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Catalogo from './pages/Catalogo';
 import Admin from './pages/Admin';
 import Navbar from './components/Navbar';
+import VeladorDetalle from './pages/VeladorDetalle';
 
 //Función principal de mi app.
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/catalogo/:id" element={<VeladorDetalle />} />
       </Routes>
     </>
   );
