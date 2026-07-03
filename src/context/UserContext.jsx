@@ -11,11 +11,14 @@ export function UserProvider({ children }) {
   const login = (username, password) => {
     if (username === "admin" && password === "1234") {
       setUser({ name: "admin", role: "admin" });
+      return "/admin";
     } else if (username === "usuario" && password === "1234") {
       setUser({ name: "usuario", role: "usuario" });
+      return "/catalogo";
     } else {
       setUser(null);
       alert("Usuario o contraseña incorrectos.");
+      return null;
     }
   };
   //Logout simulado.

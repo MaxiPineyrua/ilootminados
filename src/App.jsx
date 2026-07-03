@@ -1,5 +1,6 @@
 //Importo las rutas
 import { Routes, Route } from 'react-router-dom';
+import ProtectedRoute from './components/ProtectedRoute';
 //Páginas
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -17,7 +18,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/catalogo" element={<Catalogo />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route
+          path="/admin"
+          element={
+            <ProtectedRoute>
+              <Admin />
+            </ProtectedRoute>
+          }
+        />
         <Route path="/catalogo/:id" element={<VeladorDetalle />} />
       </Routes>
     </>

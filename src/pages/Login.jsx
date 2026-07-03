@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   //estado para usuario y contraseña.
@@ -9,6 +10,7 @@ function Login() {
 
   //Obtengo la función login del context.
   const { login } = useContext(UserContext);
+  const navigate = useNavigate();
 
   return (
     <div style={{ padding: "20px" }}>
@@ -33,7 +35,15 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)} />
       </div>
       <br />
-      <button onClick={() => login(username, password)}>Ingresar</button>
+      <button
+        onClick={() => {
+          const ruta = login(username, password);
+          if (ruta) {
+            navigate(ruta);
+          }
+        }}>
+        Ingresar
+      </button>
     </div>
   );
 }
