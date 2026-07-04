@@ -77,7 +77,7 @@
     "descripcion": "Velador con forma de pico de diamante de Minecraft.",
     "precio": 160000,
     "categoriaId": 10,
-    "imagen": "images/velador_picodiamante.png"
+    "imagen": "/images/velador_picodiamante.png"
   },
   {
     "id": 11,
@@ -101,7 +101,7 @@
     "descripcion": "Velador con forma de la cabeza de Steve de Minecraft.",
     "precio": 160000,
     "categoriaId": 10,
-    "imagen": "images/velador_cabeza_steve.png"
+    "imagen": "/images/velador_cabeza_steve.png"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "descripcion": "Velador con forma de bloque de mineral de redstone de Minecraft.",
     "precio": 140000,
     "categoriaId": 10,
-    "imagen": "images/velador_redstone.png"
+    "imagen": "/images/velador_redstone.png"
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "descripcion": "Velador con forma de bloque '?' de Super Mario.",
     "precio": 140000,
     "categoriaId": 8,
-    "imagen": "images/velador_mario.png"
+    "imagen": "/images/velador_mario.png"
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "descripcion": "Velador con forma del casco de Doom Slayer de Doom.",
     "precio": 160000,
     "categoriaId": 3,
-    "imagen": "images/velador_casco_doom.png"
+    "imagen": "/images/velador_casco_doom.png"
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "descripcion": "Velador con forma del logo de la Horda de World of Warcraft.",
     "precio": 110000,
     "categoriaId": 11,
-    "imagen": "images/velador_horda.png"
+    "imagen": "/images/velador_horda.png"
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "descripcion": "Velador con forma del logo de la Alianza de World of Warcraft.",
     "precio": 110000,
     "categoriaId": 11,
-    "imagen": "images/velador_alianza.png"
+    "imagen": "/images/velador_alianza.png"
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "descripcion": "Velador con forma del logo de la Corporación Umbrella de Resident Evil.",
     "precio": 130000,
     "categoriaId": 9,
-    "imagen": "images/velador_umbrella.png"
+    "imagen": "/images/velador_umbrella.png"
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "descripcion": "Velador con forma de la palabra 'Fatality' de Mortal Kombat.",
     "precio": 155000,
     "categoriaId": 4,
-    "imagen": "images/velador_fatality.png"
+    "imagen": "/images/velador_fatality.png"
   }
 ]

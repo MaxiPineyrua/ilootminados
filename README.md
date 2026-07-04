@@ -1,5 +1,5 @@
 # iLOOTminados - Catálogo de Veladores Gamer
-- Link de la APP web: https://ilootminados.vercel.app/ (funciona mal cuando se actualiza la página admin no regresa al home. Si descarga el repo, la app funciona perfecto.)
+- Link de la APP web: https://ilootminados.vercel.app/
 ## 👥 Integrantes
 - Walter Maximiliano Piñeyrúa
 
