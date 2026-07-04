@@ -1,5 +1,5 @@
 # iLOOTminados - Catálogo de Veladores Gamer
-
+- Link de la APP web:
 ## 👥 Integrantes
 - Walter Maximiliano Piñeyrúa
 
@@ -22,8 +22,8 @@ La aplicación simula dos tipos de usuarios:
 ### 👤 Usuario común
 - Puede ver el catálogo de veladores
 - Puede ver el detalle de cada producto
-Usuario: usuario
-Contraseña: 1234
+- Usuario: usuario
+- Contraseña: 1234
 
 ### 🔑 Administrador
 - Puede acceder al panel de administración
@@ -31,8 +31,8 @@ Contraseña: 1234
 - Puede editar veladores existentes
 - Puede eliminar veladores
 - Puede realizar lo mismo que el usuario común.
-Usuario: admin
-Contraseña: 1234
+- Usuario: admin
+- Contraseña: 1234
 
 ---
 ## ▶️ Instrucciones para levantar el proyecto
