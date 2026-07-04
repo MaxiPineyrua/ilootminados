@@ -8,6 +8,7 @@ import Catalogo from './pages/Catalogo';
 import Admin from './pages/Admin';
 import Navbar from './components/Navbar';
 import VeladorDetalle from './pages/VeladorDetalle';
+import Footer from './components/Footer';
 
 //Función principal de mi app.
 function App() {
@@ -28,6 +29,7 @@ function App() {
         />
         <Route path="/catalogo/:id" element={<VeladorDetalle />} />
       </Routes>
+      <Footer />
     </>
   );
 }

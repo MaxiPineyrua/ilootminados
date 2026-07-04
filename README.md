@@ -1,5 +1,5 @@
 # iLOOTminados - Catálogo de Veladores Gamer
-- Link de la APP web:
+- Link de la APP web: https://ilootminados.vercel.app/
 ## 👥 Integrantes
 - Walter Maximiliano Piñeyrúa
 
@@ -38,7 +38,7 @@ La aplicación simula dos tipos de usuarios:
 ## ▶️ Instrucciones para levantar el proyecto
 
 1. Clonar el repositorio:
-  git clone https://github.com/MaxiPiñeyrua/ilootminados.git
+  git clone https://github.com/MaxiPineyrua/ilootminados
 
 2. Instalar dependencias:
   npm install

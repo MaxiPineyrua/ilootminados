@@ -20,6 +20,11 @@ function VeladorDetalle() {
   //Muestro los datos del velador.
   return (
     <div style={{ padding: "20px" }}>
+      <img
+        src={velador.imagen}
+        alt={velador.nombre}
+        style={{ width: "50vw", height: "auto", borderRadius: "10px" }}
+      />
       <h1>{velador.nombre}</h1>
       <p>{velador.descripcion}</p>
       <p>{velador.precio}</p>
