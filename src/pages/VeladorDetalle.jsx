@@ -29,7 +29,7 @@ function VeladorDetalle() {
       />
       <h1>{velador.nombre}</h1>
       <p>{velador.descripcion}</p>
-      <p>{velador.precio}</p>
+      <p>${velador.precio}</p>
 
       {/*Boton para volver a la lista de veladores*/}
       <button onClick={() => navigate("/catalogo")}>Volver al catálogo.</button>
