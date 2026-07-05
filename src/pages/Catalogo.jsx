@@ -1,10 +1,11 @@
 import { useState } from "react";
-import veladoresData from "../data/veladores.json";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { VeladoresContext } from "../context/VeladoresContext";
 
 //Página del catálogo de veladores.
 function Catalogo() {
-  const [veladores] = useState(veladoresData);
+  const { veladores } = useContext(VeladoresContext);
   //estado para iluminar un velador del catálogo.
   const [hoveredId, setHoveredId] = useState(null);
   const navigate = useNavigate();

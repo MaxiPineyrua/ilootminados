@@ -9,11 +9,12 @@ import Admin from './pages/Admin';
 import Navbar from './components/Navbar';
 import VeladorDetalle from './pages/VeladorDetalle';
 import Footer from './components/Footer';
+import { VeladoresProvider } from './context/VeladoresContext';
 
 //Función principal de mi app.
 function App() {
   return (
-    <>
+    <VeladoresProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,7 +31,7 @@ function App() {
         <Route path="/catalogo/:id" element={<VeladorDetalle />} />
       </Routes>
       <Footer />
-    </>
+    </VeladoresProvider>
   );
 }
 //Exporto la función para poder usarla en otros archivos.

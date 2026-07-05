@@ -1,11 +1,12 @@
 import { useState } from "react";
-import veladoresData from "../data/veladores.json";
 import categoriasData from "../data/categorias.json";
+import { useContext } from "react";
+import { VeladoresContext } from "../context/VeladoresContext";
 
 //Página del admin.
 function Admin() {
   //Pongo los veladores del json.
-  const [veladores, setVeladores] = useState(veladoresData);
+  const { veladores, setVeladores } = useContext(VeladoresContext);
   //Estado para el nombre del nuevo velador.
   const [nuevoNombre, setNuevoNombre] = useState("");
 

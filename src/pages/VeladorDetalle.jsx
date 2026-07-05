@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
-import veladoresData from "../data/veladores.json";
+import { useContext } from "react";
+import { VeladoresContext } from "../context/VeladoresContext";
 
 //Función para obtener el velador por ID.
 function VeladorDetalle() {
@@ -7,9 +8,10 @@ function VeladorDetalle() {
   const { id } = useParams();
   //Obtengo navigate para navegar a otra página.
   const navigate = useNavigate();
+  const { veladores } = useContext(VeladoresContext);
 
   //Busco el velador por ID.
-  const velador = veladoresData.find(
+  const velador = veladores.find(
     (item) => item.id === parseInt(id)
   );
   //Si no se encuentra el velador, muestro un mensaje de error.
